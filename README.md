@@ -269,6 +269,24 @@ Base URL: `https://openrouter.ai/api/v1`
 | `qwen/qwen3-next-80b-a3b-instruct:free`     | 262K    | ~32K       | Text         | 20 RPM, 200 RPD |
 | + ~12 more free models                      | Varies  | Varies     | Text / Image | 20 RPM, 200 RPD |
 
+### [AnyAPI](https://dash.anyapi.ai/) 🇺🇸
+
+Free models, no credit card required. [^9]
+
+Base URL: `https://api.anyapi.ai/v1`
+
+| Model Name                                  | Context | Max Output | Modality         | Rate Limit      |
+| ------------------------------------------- | ------- | ---------- | ---------------- | --------------- |
+| `meta-llama/llama-3.3-70b-instruct:free`    | 131K    | ~16K       | Text             | 20 RPM, 200 RPD |
+| `nvidia/nemotron-3-ultra-550b-a55b:free`    | 1M      | 65K        | Text             | 20 RPM, 200 RPD |
+| `nvidia/nemotron-3-nano-30b-a3b:free`       | 128K    | 32K        | Text             | 20 RPM, 200 RPD |
+| `qwen/qwen3-coder:free`                     | 1M      | 262K       | Text (code)      | 20 RPM, 200 RPD |
+| `qwen/qwen3-next-80b-a3b-instruct:free`     | 262K    | ~32K       | Text             | 20 RPM, 200 RPD |
+| `google/gemma-4-26b-a4b-it:free`            | 262K    | 32K        | Text             | 20 RPM, 200 RPD |
+| `poolside/laguna-m.1:free`                  | 262K    | 32K        | Text             | 20 RPM, 200 RPD |
+| `liquid/lfm-2.5-1.2b-thinking:free`         | 32K     | —          | Text (reasoning) | 20 RPM, 200 RPD |
+| + 7 more free models                        | Varies  | Varies     | Text / Vision    | 20 RPM, 200 RPD |
+
 ### [OVHcloud AI Endpoints](https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/) 🇫🇷
 
 Free anonymous tier (no API key, no signup): 2 RPM per IP per model. 20+ open-weight models hosted in EU. OpenAI SDK-compatible. [^7]
@@ -339,3 +357,4 @@ Know a free tier that's missing? [Open a PR](contributing.md). Include the provi
 [^6]: API-Inference is free for registered users. Current published limits are 2,000 requests/day per user (total across models), with per-model daily quotas dynamically adjusted and capped at 500; concurrency is also dynamically rate-limited. Requires Alibaba Cloud account binding and real-name verification ([limits](https://modelscope.cn/docs/model-service/API-Inference/limits), [intro](https://modelscope.cn/docs/model-service/API-Inference/intro)).
 [^7]: OVHcloud AI Endpoints offers a permanent free anonymous tier (2 requests per minute per IP, per model) with no signup or API key required. Higher rate limits (400 RPM per Public Cloud project per model) require an API key and are billed pay-as-you-go per token; new Public Cloud accounts get up to $200 in free trial credits. Models are hosted in EU data centers.
 [^8]: SambaNova grants $5 in initial credits (valid 30 days) on top of the permanent free tier. The free tier itself persists indefinitely with 20 RPM, 20 RPD, and 200K TPD per model. No credit card required. OpenAI SDK-compatible.
+[^9]: Free model list may change over time. Rate limits follow OpenRouter's free tier limits (20 RPM, 200 RPD default). No credit card required.

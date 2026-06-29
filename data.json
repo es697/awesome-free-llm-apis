@@ -970,6 +970,90 @@
       ]
     },
     {
+      "name": "AnyAPI",
+      "category": "inference_provider",
+      "country": "US",
+      "flag": "🇺🇸",
+      "url": "https://dash.anyapi.ai/",
+      "baseUrl": "https://api.anyapi.ai/v1",
+      "description": "Free models, no credit card required.",
+      "footnoteRef": 9,
+      "models": [
+        {
+          "id": "meta-llama/llama-3.3-70b-instruct:free",
+          "name": "meta-llama/llama-3.3-70b-instruct:free",
+          "context": "131K",
+          "maxOutput": "~16K",
+          "modality": "Text",
+          "rateLimit": "20 RPM, 200 RPD"
+        },
+        {
+          "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "name": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "context": "1M",
+          "maxOutput": "65K",
+          "modality": "Text",
+          "rateLimit": "20 RPM, 200 RPD"
+        },
+        {
+          "id": "nvidia/nemotron-3-nano-30b-a3b:free",
+          "name": "nvidia/nemotron-3-nano-30b-a3b:free",
+          "context": "128K",
+          "maxOutput": "32K",
+          "modality": "Text",
+          "rateLimit": "20 RPM, 200 RPD"
+        },
+        {
+          "id": "qwen/qwen3-coder:free",
+          "name": "qwen/qwen3-coder:free",
+          "context": "1M",
+          "maxOutput": "262K",
+          "modality": "Text (code)",
+          "rateLimit": "20 RPM, 200 RPD"
+        },
+        {
+          "id": "qwen/qwen3-next-80b-a3b-instruct:free",
+          "name": "qwen/qwen3-next-80b-a3b-instruct:free",
+          "context": "262K",
+          "maxOutput": "~32K",
+          "modality": "Text",
+          "rateLimit": "20 RPM, 200 RPD"
+        },
+        {
+          "id": "google/gemma-4-26b-a4b-it:free",
+          "name": "google/gemma-4-26b-a4b-it:free",
+          "context": "262K",
+          "maxOutput": "32K",
+          "modality": "Text",
+          "rateLimit": "20 RPM, 200 RPD"
+        },
+        {
+          "id": "poolside/laguna-m.1:free",
+          "name": "poolside/laguna-m.1:free",
+          "context": "262K",
+          "maxOutput": "32K",
+          "modality": "Text",
+          "rateLimit": "20 RPM, 200 RPD"
+        },
+        {
+          "id": "liquid/lfm-2.5-1.2b-thinking:free",
+          "name": "liquid/lfm-2.5-1.2b-thinking:free",
+          "context": "32K",
+          "maxOutput": "—",
+          "modality": "Text (reasoning)",
+          "rateLimit": "20 RPM, 200 RPD"
+        },
+        {
+          "id": null,
+          "name": "+ 7 more free models",
+          "context": "Varies",
+          "maxOutput": "Varies",
+          "modality": "Text / Vision",
+          "rateLimit": "20 RPM, 200 RPD"
+        }
+      ]
+    },
+    {
       "name": "OVHcloud AI Endpoints",
       "category": "inference_provider",
       "country": "FR",
@@ -1206,6 +1290,10 @@
     {
       "id": 8,
       "text": "SambaNova grants $5 in initial credits (valid 30 days) on top of the permanent free tier. The free tier itself persists indefinitely with 20 RPM, 20 RPD, and 200K TPD per model. No credit card required. OpenAI SDK-compatible."
+    },
+    {
+      "id": 9,
+      "text": "Free model list may change over time. No credit card required."
     }
   ],
   "glossary": [
